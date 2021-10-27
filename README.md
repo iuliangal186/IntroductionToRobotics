@@ -2,7 +2,7 @@
 Introduction to Robotics laboratory homeworks, taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest. In the next section you can see the solved homeworks, detailed, with images or videos depending on the complexity of the homework. Also this repo contains courses, useful links, tips for coding style and other useful materials.
 
 # Homework 1
-For this homework I must fading a RGB led with 3 potentiometers, each potentiometer for red, green, blue. Theoretically, in the end I can create 255*255*255 different colors combining the intensities of the 3 primary colors. 255*255*255 because a led take values from 0 to 255.
+For this homework I must fading a RGB led with 3 potentiometers, each potentiometer for red, green, blue. Theoretically, in the end I can create 255 * 255 * 255 different colors combining the intensities of the 3 primary colors. 255 * 255 * 255 because a led take values from 0 to 255.
 
 Materials required:
 * Arduino Uno - 1pcs
