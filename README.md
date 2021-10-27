@@ -24,7 +24,5 @@ How to connect the elements:
 - each right side of Potentiometer to + (bradboard)
 - each middle side of Potentimeter to A0, A1, A2
 
-![homework1](https://user-images.githubusercontent.com/61587939/139029029-f3b173cc-182b-4210-a149-a97a991ec70a.jpeg)
-
 # Homework 2
 TBA...
