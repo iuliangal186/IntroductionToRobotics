@@ -14,4 +14,14 @@ Materials required:
 * Black cable for GND - 5 pcs
 * Non-Black cable for Signal/5V - 10pcs
 
+How to connect the elements:
+- 5V and GND to + and - on breadboard
+- GND to cathode RGB Led
+- Red branch of Led to Rezistor to Pin ~11
+- Green branch of Led to Rezistor to Pin ~10
+- Blue branch of Led to Rezistor to Pin ~9
+- each left side of Potentimeter to - (breadboard)
+- each right side of Potentiometer to + (bradboard)
+- each middle side of Potentimeter to A0, A1, A2
 
+![homework1](https://user-images.githubusercontent.com/61587939/139029029-f3b173cc-182b-4210-a149-a97a991ec70a.jpeg)
