@@ -4,6 +4,8 @@ Introduction to Robotics laboratory homeworks, taken in the 3rd year at the Facu
 # Homework 1
 For this homework I must fading a RGB led with 3 potentiometers, each potentiometer for red, green, blue. Theoretically, in the end I can create 255 * 255 * 255 different colors combining the intensities of the 3 primary colors. 255 * 255 * 255 because a led take values from 0 to 255.
 
+Video demo: https://youtu.be/Z4e0uCh_60U
+
 Materials required:
 * Arduino Uno - 1pcs
 * Cable USB Type A to Arduino Uno - 1pcs
@@ -24,7 +26,7 @@ How to connect the elements:
 - each right side of Potentiometer to + (bradboard)
 - each middle side of Potentimeter to A0, A1, A2
 
-Video demo: https://youtu.be/Z4e0uCh_60U
+<img src="https://user-images.githubusercontent.com/61587939/139099823-e6045fef-3381-4f29-a7d6-73aa7da760fc.jpg" width=650 height=700>
 
 # Homework 2
 TBA...
