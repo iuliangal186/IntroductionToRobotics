@@ -18,6 +18,12 @@ int redValue = 0;
 int greenValue = 0;
 int blueValue = 0;
 
+//initialized min and max values for potentiometers and leds
+const int minPotentiometerValue = 0;
+const int maxPotentiometerValue = 1023;
+const int minLedValue = 0;
+const int maxLedValue = 255;
+
 void setup() {
   //pin mode for each initialized pin (INPUT / OUTPUT)
   pinMode(potRedPin, INPUT);
@@ -36,9 +42,9 @@ void loop() {
   potBlueValue = analogRead(potBluePin);
 
   //mapping potentiometers values to leds values, interval [0, 255]
-  redValue = potRedValue / 4;
-  greenValue = potGreenValue / 4;
-  blueValue = potBlueValue / 4;
+  redValue = map(potRedValue, minPotentiometerValue, maxPotentiometerValue, minLedValue, maxLedValue);
+  greenValue = map(potGreenValue, minPotentiometerValue, maxPotentiometerValue, minLedValue, maxLedValue);
+  blueValue = map(potBlueValue, minPotentiometerValue, maxPotentiometerValue, minLedValue, maxLedValue);
 
   Serial.println(potRedValue);
   Serial.println(potGreenValue);
