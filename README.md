@@ -29,4 +29,33 @@ How to connect the elements:
 <img src="https://user-images.githubusercontent.com/61587939/139099823-e6045fef-3381-4f29-a7d6-73aa7da760fc.jpg" width=650 height=700>
 
 # Homework 2
-TBA...
+For this homework I must simulate a pedestrian crossing with traffic lights for pedestrian and traffic lights for cars. For this we have 4 situations:
+1. The traffic light for cars is green and the traffic light for pedestrians is red
+2. The traffic light for cars is yellow and the traffic light for pedestrians is red if a pedestrian wants to cross and has pressed the button before
+3. The traffic light for cars is red and the traffic light for pedestrians is green
+  * there is a additional buzzer that makes a slow sound
+4. The traffic light for cars is red and the traffic light for pedestrians is green and blinking
+  * there is a additional buzzer that makes a fast sound
+After these steps the traffic lights reset and will be back in step 1.
+
+Video demo: https://youtu.be/p1_FeLFnayE
+
+Materials required:
+* Arduino Uno - 1pcs
+* Cable USB Type A to Arduino Uno - 1pcs
+* BreadBoard - 2pcs
+* Red Led - 2pcs
+* Green Led - 2pcs
+* Yellow Led - 1pcs
+* Rezistor 330 Ohm - 5pcs
+* Buzzer - 1pcs
+* Button - 1pcs
+* a lot of conectivity cables
+
+How to connect the elements:
+* + of button to pin 2 and - to GND (I used INPUT_PULLUP)
+* + of green / yellow / red led (for cars) to pin 13 / 12 / 11 and - to GND
+* + of green / red led (for pedestrian) to pin 6 / 7
+* + of buzzer to pin 8 and - to gnd
+
+
