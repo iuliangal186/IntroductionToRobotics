@@ -1,4 +1,4 @@
-//initialized pins input / outpu
+//initialized pins input / output
 const int carsRedPin = 11;
 const int carsYellowPin = 12;
 const int carsGreenPin = 13;
