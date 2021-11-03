@@ -1,7 +1,10 @@
 # Introduction To Robotics 2021-2022
 Introduction to Robotics laboratory homeworks, taken in the 3rd year at the Faculty of Mathematics and Computer Science, University of Bucharest. In the next section you can see the solved homeworks, detailed, with images or videos depending on the complexity of the homework. Also this repo contains courses, useful links, tips for coding style and other useful materials.
 
-# Homework 1
+<details>
+  <summary>Homework 1</summary>
+<br>
+
 For this homework I must fading a RGB led with 3 potentiometers, each potentiometer for red, green, blue. Theoretically, in the end I can create 255 * 255 * 255 different colors combining the intensities of the 3 primary colors. 255 * 255 * 255 because a led take values from 0 to 255.
 
 Video demo: https://youtu.be/Z4e0uCh_60U
@@ -27,8 +30,12 @@ How to connect the elements:
 - each middle side of Potentimeter to A0, A1, A2
 
 <img src="https://user-images.githubusercontent.com/61587939/139099823-e6045fef-3381-4f29-a7d6-73aa7da760fc.jpg" width=650 height=700>
+  
+</details>
+<details>
+  <summary>Homework 2</summary>
+<br>
 
-# Homework 2
 For this homework I must simulate a pedestrian crossing with traffic lights for pedestrian and traffic lights for cars. For this we have 4 situations:
 1. The traffic light for cars is green and the traffic light for pedestrians is red
 2. The traffic light for cars is yellow and the traffic light for pedestrians is red if a pedestrian wants to cross and has pressed the button before
@@ -59,4 +66,5 @@ How to connect the elements:
 
 <img src="https://user-images.githubusercontent.com/61587939/140090225-ce7c5268-4a10-425a-95f9-7812b4ce6dc2.jpg" width=650 height=700>
 
+</details>
 
