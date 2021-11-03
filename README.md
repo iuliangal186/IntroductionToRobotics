@@ -34,7 +34,8 @@ For this homework I must simulate a pedestrian crossing with traffic lights for 
 2. The traffic light for cars is yellow and the traffic light for pedestrians is red if a pedestrian wants to cross and has pressed the button before
 3. The traffic light for cars is red and the traffic light for pedestrians is green and there is a additional buzzer that makes a slow sound
 4. The traffic light for cars is red and the traffic light for pedestrians is green and blinking and there is a additional buzzer that makes a fast sound
-After these steps the traffic lights reset and will be back in step 1.
+
+  After these steps the traffic lights reset and will be back in step 1.
 
 Video demo: https://youtu.be/p1_FeLFnayE
 
