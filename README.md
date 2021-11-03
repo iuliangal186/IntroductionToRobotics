@@ -53,9 +53,11 @@ Materials required:
 * a lot of conectivity cables
 
 How to connect the elements:
-* + of button to pin 2 and - to GND (I used INPUT_PULLUP)
-* + of green / yellow / red led (for cars) to pin 13 / 12 / 11 and - to GND
-* + of green / red led (for pedestrian) to pin 6 / 7
-* + of buzzer to pin 8 and - to gnd
+* plus of button to pin 2 and - to GND (I used INPUT_PULLUP)
+* plus of green / yellow / red led (for cars) to pin 13 / 12 / 11 and - to GND
+* plus of green / red led (for pedestrian) to pin 6 / 7
+* plus of buzzer to pin 8 and - to gnd
+
+<img src="https://user-images.githubusercontent.com/61587939/140090225-ce7c5268-4a10-425a-95f9-7812b4ce6dc2.jpg" width=650 height=700>
 
 
