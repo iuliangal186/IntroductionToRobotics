@@ -67,4 +67,27 @@ How to connect the elements:
 <img src="https://user-images.githubusercontent.com/61587939/140090225-ce7c5268-4a10-425a-95f9-7812b4ce6dc2.jpg" width=650 height=700>
 
 </details>
+<details>
+  <summary>Homework 3</summary>
+<br>
+  For this homework I had to make an EMF detector like this: with the help of an improvised antenna from a cable I have to discover the surrounding electromagnetic fields. I will represent the intensity of the electromagnetic field through a 7 segment display with numbers from 0 to 9.
+  
+Video demo: https://youtu.be/iLIU5k5-5co
 
+  Materials required:
+* Arduino Uno - 1pcs
+* Cable USB Type A to Arduino Uno - 1pcs
+* BreadBoard - 2pcs
+* 7 segment display - 1pcs
+* buzzer - 1pcs
+* resistor 220 Ohm - 2pcs
+* resistor 1M Ohm - 3pcs
+* a lot of conectivity cables
+
+<img src="https://user-images.githubusercontent.com/61587939/141143308-789f9542-8534-49d7-94f3-39000b169815.jpg" width=650 height=700>
+
+</details>  
+
+<details>
+  <summary>Homework 4</summary>
+</details>
