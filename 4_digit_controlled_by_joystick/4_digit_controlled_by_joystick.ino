@@ -84,6 +84,8 @@ void setup (){
   Serial.begin(9600);
 }
 
+// button pressed with debounce
+// ISR function for interrupt
 void buttonPressed() {
   unsigned long interruptTime = millis();
   if (interruptTime - lastInterrupt > interruptDelay) {
