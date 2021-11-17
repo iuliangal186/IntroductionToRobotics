@@ -91,13 +91,13 @@ Video demo: https://youtu.be/iLIU5k5-5co
 <details>
   <summary>Homework 4</summary>
 <br>
-  __For this homework I had to control a 4 digit 7 segment display with the help of a joystick as follows:__
-  <br>
-  __First state__ : moving the joystick on the Ox axis can switch from one digit to another, from left to right or from right to left. We can know on which digit we are with the help of the corresponding DP that will blink.
-  <br>
-  __Second state__ : after pressing the joystick button DP remains locked in the current position and by moving the joystick on the Oy axis we can increase or decrease the number displayed in the range 0 - 9. To return to state 1 we must press again on joystick button
+  For this homework I had to control a 4 digit 7 segment display with the help of a joystick as follows:
+  <br><br>
+  First state: moving the joystick on the Ox axis can switch from one digit to another, from left to right or from right to left. We can know on which digit we are with the help of the corresponding DP that will blink.
+  <br><br>
+  Second state: after pressing the joystick button DP remains locked in the current position and by moving the joystick on the Oy axis we can increase or decrease the number displayed in the range 0 - 9. To return to state 1 we must press again on joystick button
   
-Video demo: 
+Video demo: https://youtu.be/X9G-YgQz9e8
   
 Materials required:
   * Arduino Uno - 1pcs
