@@ -95,8 +95,8 @@ Video demo: https://youtu.be/iLIU5k5-5co
   <br><br>
   First state: moving the joystick on the Ox axis can switch from one digit to another, from left to right or from right to left. We can know on which digit we are with the help of the corresponding DP that will blink.
   <br><br>
-  Second state: after pressing the joystick button DP remains locked in the current position and by moving the joystick on the Oy axis we can increase or decrease the number displayed in the range 0 - 9. To return to state 1 we must press again on joystick button
-  <br>
+  Second state: after pressing the joystick button DP remains locked in the current position and by moving the joystick on the Oy axis we can increase or decrease the number displayed in the range 0 - 9. To return to state 1 we must press again on joystick button.
+  <br><br>
   
 Video demo: https://youtu.be/PXJRAQGvKgA
   
