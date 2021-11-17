@@ -1,3 +1,5 @@
+#include <EEPROM.h>
+
 //shift registers pins
 const int dataPin = 12; //DS
 const int latchPin = 11; // STCP
@@ -80,8 +82,15 @@ void setup (){
     pinMode(displayDigits[i], OUTPUT);
     digitalWrite(displayDigits[i], LOW);
   }
-  
+  readSavedValues();
   Serial.begin(9600);
+}
+
+// function that read last values from EEPROM
+void readSavedValues() {
+  for (int i = 0; i < displayCount; i++){
+    digitNumber[i] = EEPROM.read(i);
+  }
 }
 
 // button pressed with debounce
@@ -135,6 +144,7 @@ void writeDigit(int currentDisplay, int state){
     }
     showDigit(i);
     writeReg(digitToDisplay);
+    EEPROM.write(i, digitNumber[i]);
     delay(5); 
   }
 }
