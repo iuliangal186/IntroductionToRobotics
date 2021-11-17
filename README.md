@@ -97,6 +97,8 @@ Video demo: https://youtu.be/iLIU5k5-5co
   <br><br>
   Second state: after pressing the joystick button DP remains locked in the current position and by moving the joystick on the Oy axis we can increase or decrease the number displayed in the range 0 - 9. To return to state 1 we must press again on joystick button.
   <br><br>
+  Extra: I used interrupts for push button and EEPROM library for loading the last values before shutting down arduino.
+  <br><br>
   
 Video demo: https://youtu.be/PXJRAQGvKgA
   
